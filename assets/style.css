@@ -1,14 +1,62 @@
-main, header, section, aside, footer {
+*{
 
 }
 
+body{
+    background-color: #517d5e;
+}
 main {
-
+    display: flex;
 }
+header{
+    padding: 10px;
+    border-style:solid;
+    border-color: black;
+    border-width:2px;
+    background: #4d5f8b;
+    color: #ffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+nav{
+    display:flex;
+    align-items:flex-end;
+    padding-right:5%;
+    font-size:large;
+    
+    }
+nav a:link{
+    color:lightskyblue;
+    text-decoration: underline;
+    background-color:transparent;
+    margin:5px;
+}   
+
+
+h1{ 
+    font-size: 40px;
+    border-style:solid;
+    border-color:white;
+    background:#517d5e;
+    width: auto;
+}
+
+    
+
+
 
 .header {
 
 }
+
+img{
+    width:500px;
+}
+
+
 
 .hero {
 
@@ -23,5 +71,5 @@ main {
 }
 
 .footer {
-    
+
 }
