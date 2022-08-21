@@ -48,10 +48,7 @@ h1{
 
 }
 
-figure{]
-    position:absolute;
-    
-}
+
 figure p{
     position:relative;
     width: 50%;    
@@ -86,9 +83,34 @@ figure img{
 
 }
 
-.content {
+.content {display:flex;
+    flex-wrap:wrap;
+
 
 }
+h2{
+        
+    Color: Orange;
+    font-size: 40px;
+    width: 30%;
+    padding: 10px 20px;
+    border-right: 2px solid white;
+    text-align: right;
+       
+        
+    
+}
+
+.about-me{
+    margin:20px;
+    padding: 10px 20px;
+    color: brown;
+    width: 60%;
+    
+
+
+}
+
 
 .aside {
 
