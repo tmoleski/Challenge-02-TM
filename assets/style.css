@@ -6,8 +6,9 @@ main {
     display: flex;
     margin-top: 5%;
     flex-direction: column;
-    
+
 }
+
 /* Header  */
 header {
     padding: 10px;
@@ -39,6 +40,11 @@ h1 {
 
 nav {
     display: flex;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:white;
+    
+
     align-items: flex-end;
     padding-right: 5%;
     font-size: large;
@@ -51,22 +57,22 @@ nav a:link {
     background-color: transparent;
     margin: 5px;
 }
-
+ .button:hover {color:rgb(184, 32, 139)}
 /* Banner */
 
-.hero {
-    }
+
 figure img {
-    height:200px;
-    width:100%;
+    height: 200px;
+    width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
     border: 3px solid white;
 }
 
+/* quote */
 .box {
-    display:flex;
+    display: flex;
     position: relative;
     width: 50%;
     text-align: left;
@@ -79,67 +85,62 @@ figure img {
     left: 45%;
     bottom: 145px;
     background-color: white;
-    
+
 }
 
 /* About Me */
-.about-me{display:flex;
-        width:100%
-    
+.about-me {
+    display: flex;
+    width: 100%
+}
+
+h2 {
+
+    Color: Orange;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-right: 2px solid white;
 
 }
 
 .content1 {
 
-    height: 100px;    
+    height: 100px;
     border-right: 2px solid white;
     flex-wrap: wrap;
-    text-align:right;
+    text-align: right;
 
 }
 
-   
+
 h3 {
     display: inline-block;
     height: 100px;
     width: 80%;
     margin: 10px;
-    padding: 20px 20px;
+    padding: 0px 20px;
     color: brown;
-    flex-wrap:wrap;
-    text-align: ;
+    flex-wrap: wrap;
+
 }
 
-.column1{width:20%;
-    text-align: right; 
-    min-width: 250px;}
+.column1 {
+    width: 20%;
+    text-align: right;
+    min-width: 250px;
+}
 
 
-.column2{width:80%;
+.column2 {
+    width: 80%;
 }
 
 /* Work */
-.work{display:flex;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.right {
-    display: inline-block;
-    justify-content: space-between;
-    width: 80%;
-
+.work {
+    display: flex;
 }
+
+
 
 .content {
     display: flex;
@@ -149,55 +150,27 @@ h3 {
 
 
 }
-.contact-info{
-    display:flex;
-    text-align:
-}
-h2 {
-    
-    Color: Orange;
-    font-size: 40px;
 
-    padding: 10px 20px;
-    border-right: 2px solid white;
-    
+.contactinfo {
+    display: flex;
 
-
-
-}
-
-/* .about-me {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    color: brown;
-    width: 80%;
-    height: 10%;
-
-} */
-
-
-.info {
-    display:flex;
-    justify-content: space-around;
-    margin: 0px;
-    padding: 5px;
 }
 
 .surf {
     position: relative;
     display: flex;
-    margin:20px;
-    padding; 20px;
+    margin: 20px;
+    padding: 0px;
     width: 500px;
     height: 500px;
-    
+
 
 }
 
 .title {
     position: relative;
     width: 300px;
+    height: 50px;
     text-align: left;
     margin: 10px;
     border: 3px solid white;
@@ -206,11 +179,27 @@ h2 {
     padding: 6px 20px;
     color: yellow;
     font-size: 28px;
-    left:10%;
-    bottom:10%;
-  
+    left: 10%;
+    bottom: 10%;
+
 
 }
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    margin: 30px;
+    
+    padding: 10px;
+}
+
+.work2 {
+    display: flex;
+}
+
+
+
 
 .images {
     padding: 10px;
@@ -220,5 +209,15 @@ h2 {
     left: 32%;
     justify-content: space-around;
 
+
+}
+
+.images p{
+    border: 2px solid white;
+    color:brown;
+    width:fit-content;
+    padding:3px;
+    background-color: white;
+    
 
 }
