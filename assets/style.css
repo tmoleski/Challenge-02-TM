@@ -1,11 +1,14 @@
 body {
-    background-color: #517d5e;
+    background-color:#9cc2d5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
     display: flex;
     margin-top: 5%;
     flex-direction: column;
+    width:100%;
+    height:auto;
 
 }
 
@@ -15,19 +18,19 @@ header {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    background: #4d5f8b;
+    background: #9cc2d5;
     color: #ffff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
 }
 
 h1 {
     font-size: 40px;
-    border: 2px solid white;
-    border-radius: 5%;
+    border: 2px solid #00203F;
+    border-radius: 2%;
     box-shadow: -5px 5px 5px white;
-    background: #517d5e;
+    background: #09395e90;
     width: auto;
     margin: 5px;
     padding: 10px;
@@ -41,7 +44,7 @@ nav {
     display: flex;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
+    color: #01539D;
     align-items: flex-end;
     padding-right: 5%;
     font-size: large;
@@ -49,12 +52,19 @@ nav {
 }
 
 nav a:link {
-    color: lightskyblue;
+    color: rgb(85, 131, 159);
     text-decoration: underline;
     background-color: transparent;
     margin: 5px;
 }
 
+a:visited {
+    color: #1c1910;
+}
+
+a:hover, a:active, a:focus {
+    color:#d82e67
+}
 /* Hero */
 
 
@@ -73,10 +83,10 @@ nav a:link {
     width: 50%;
     text-align: left;
     margin: 10px;
-    border: 3px solid white;
+    border: 3px solid black;
     border-radius: 5px;
     padding: 6px 20px;
-    color: blueviolet;
+    color: rgb(42, 29, 103);
     font-size: 20px;
     left: 45%;
     bottom: 145px;
@@ -91,21 +101,17 @@ nav a:link {
 }
 
 h2 {
-
-    Color: Orange;
+    Color: #00203F;
     font-size: 40px;
     padding: 10px 20px;
     border-right: 2px solid white;
-
 }
 
 .content1 {
-
     height: 100px;
-    border-right: 2px solid white;
+    border-right: 2px solid black;
     flex-wrap: wrap;
     text-align: right;
-
 }
 
 
@@ -115,7 +121,7 @@ h3 {
     width: 80%;
     margin: 10px;
     padding: 0px 20px;
-    color: brown;
+    color:#00203F;
     flex-wrap: wrap;
 
 }
@@ -145,27 +151,34 @@ h3 {
 
 
 .buttons {
-    display: inline-block;
-    height: 100px;
+    display: flex;
     width: 80%;
     margin: 10px;
     padding: 0px 20px;
     flex-wrap: wrap;
+    
 
+}
+
+.buttons a:hover {
+
+    background-blend-mode: hard-light;
 }
 
 h4 {
     color: white;
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, 'Times New Roman', serif;
     text-align: left;
+    height:22px;
 }
 
 h5 {
-    color: black;
+    color: white;
     font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, 'Times New Roman', serif;
     text-align: left;
+    height:20px;
 }
 
 .surf-report {
@@ -173,7 +186,9 @@ h5 {
     background-image: url("../images/prism.avif");
     background-size: cover;
     background-position: center;
-    min-height: 100px;
+    width:100%;
+    min-height: 200px;
+    min-width:500px;
     display: flex;
     justify-content: flex-start;
     text-align: left;
@@ -181,9 +196,7 @@ h5 {
     margin: 0px;
 }
 
-.surf-report a:hover {
-    background-blend-mode: hard-light;
-}
+
 
 .led-wall {
 
@@ -238,32 +251,36 @@ h5 {
     text-align: left;
     border: 2px solid white;
     margin: 0px;
-
 }
 
-
+.border {
+    border:#00203F solid 2px;
+}
 
 .content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-
-
 }
 
 .contactinfo {
     display: flex;
-
 }
 
-
+.buttons:hover {
+    opacity: 0.7;
+}
 
 .info {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 30px;
-
     padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    h4 {font-size: smaller;}
+    h5 {font-size:smaller;}
 }
