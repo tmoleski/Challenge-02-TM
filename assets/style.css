@@ -135,6 +135,7 @@ h3 {
 
 .column2 {
     width: 80%;
+    color:#00203F;
 }
 
 /* Work */
@@ -171,7 +172,9 @@ h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, 'Times New Roman', serif;
     text-align: left;
     height:22px;
+   
 }
+
 
 h5 {
     color: white;
@@ -244,6 +247,7 @@ h5 {
     background-image: url("../images/yellow.avif");
     background-size: cover;
     background-position: center;
+    background-blend-mode: luminosity;
     min-height: 100px;
     width: 50%;
     display: flex;
@@ -278,6 +282,7 @@ h5 {
     text-align: center;
     margin: 30px;
     padding: 10px;
+  
 }
 
 @media screen and (max-width:768px) {
