@@ -19,7 +19,6 @@ header {
     color: #ffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    align-items: left;
     justify-content: space-between;
 }
 
@@ -43,8 +42,6 @@ nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
-
-
     align-items: flex-end;
     padding-right: 5%;
     font-size: large;
@@ -58,10 +55,10 @@ nav a:link {
     margin: 5px;
 }
 
-/* Banner */
+/* Hero */
 
 
-figure img {
+.hero img {
     height: 200px;
     width: 100%;
     background-position: center;
@@ -70,8 +67,7 @@ figure img {
     border: 3px solid white;
 }
 
-/* quote */
-.box {
+.quote {
     display: flex;
     position: relative;
     width: 50%;
@@ -201,7 +197,7 @@ h5 {
     text-align: left;
     border: 2px solid white;
     margin: 0px;
-    
+
 }
 
 .calculator {
@@ -238,7 +234,7 @@ h5 {
     min-height: 100px;
     width: 50%;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     text-align: left;
     border: 2px solid white;
     margin: 0px;
@@ -261,34 +257,7 @@ h5 {
 
 }
 
-.surf {
-    position: relative;
-    display: flex;
-    margin: 20px;
-    padding: 0px;
-    width: 500px;
-    height: 500px;
 
-
-}
-
-.title {
-    position: relative;
-    width: 300px;
-    height: 50px;
-    text-align: left;
-    margin: 10px;
-    border: 3px solid white;
-    background-color: #517d5e;
-    border-radius: 5px;
-    padding: 6px 20px;
-    color: yellow;
-    font-size: 28px;
-    left: 10%;
-    bottom: 10%;
-
-
-}
 
 .info {
     display: flex;
@@ -297,32 +266,4 @@ h5 {
     margin: 30px;
 
     padding: 10px;
-}
-
-.work2 {
-    display: flex;
-}
-
-
-
-
-.images {
-    padding: 10px;
-    position: relative;
-    width: 40%;
-    max-width: 300px;
-    left: 32%;
-    justify-content: space-around;
-
-
-}
-
-.images p {
-    border: 2px solid white;
-    color: brown;
-    width: fit-content;
-    padding: 3px;
-    background-color: white;
-
-
 }
