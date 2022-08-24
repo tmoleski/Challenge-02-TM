@@ -42,8 +42,8 @@ nav {
     display: flex;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:white;
-    
+    color: white;
+
 
     align-items: flex-end;
     padding-right: 5%;
@@ -57,7 +57,7 @@ nav a:link {
     background-color: transparent;
     margin: 5px;
 }
- .button:hover {color:rgb(184, 32, 139)}
+
 /* Banner */
 
 
@@ -138,6 +138,111 @@ h3 {
 /* Work */
 .work {
     display: flex;
+
+}
+
+.work-section {
+    display: flex;
+    width: 100%;
+
+}
+
+
+.buttons {
+    display: inline-block;
+    height: 100px;
+    width: 80%;
+    margin: 10px;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+h5 {
+    color: black;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+.surf-report {
+
+    background-image: url("../images/prism.avif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    border: 2px solid white;
+    margin: 0px;
+}
+
+.surf-report a:hover {
+    background-blend-mode: hard-light;
+}
+
+.led-wall {
+
+    background-image: url("../images/city.avif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    border: 2px solid white;
+    margin: 0px;
+    
+}
+
+.calculator {
+    background-image: url("../images/skyscraper.avif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    border: 2px solid white;
+    margin: 0px;
+
+}
+
+.pastel-puzzles {
+    background-image: url("../images/windows.avif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    border: 2px solid white;
+    margin: 0px;
+}
+
+.run-buddy {
+    background-image: url("../images/yellow.avif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+    text-align: left;
+    border: 2px solid white;
+    margin: 0px;
+
 }
 
 
@@ -188,9 +293,9 @@ h3 {
 .info {
     display: flex;
     justify-content: space-around;
-    text-align:center;
+    text-align: center;
     margin: 30px;
-    
+
     padding: 10px;
 }
 
@@ -212,12 +317,12 @@ h3 {
 
 }
 
-.images p{
+.images p {
     border: 2px solid white;
-    color:brown;
-    width:fit-content;
-    padding:3px;
+    color: brown;
+    width: fit-content;
+    padding: 3px;
     background-color: white;
-    
+
 
 }
