@@ -12,11 +12,12 @@ main {
 
 }
 
+
 /* Header  */
 header {
     padding: 10px;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     border-width: 2px;
     background: #9cc2d5;
     color: #ffff;
@@ -27,7 +28,7 @@ header {
 
 h1 {
     font-size: 40px;
-    border: 2px solid #00203F;
+    border: 2px solid white;
     border-radius: 2%;
     box-shadow: -5px 5px 5px white;
     background: #09395e90;
@@ -150,20 +151,12 @@ h3 {
 
 }
 
-
 .buttons {
     display: flex;
     width: 80%;
     margin: 10px;
     padding: 0px 20px;
     flex-wrap: wrap;
-    
-
-}
-
-.buttons a:hover {
-
-    background-blend-mode: hard-light;
 }
 
 h4 {
@@ -171,10 +164,8 @@ h4 {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, 'Times New Roman', serif;
     text-align: left;
-    height:22px;
-   
+    height:22px;  
 }
-
 
 h5 {
     color: white;
@@ -185,7 +176,6 @@ h5 {
 }
 
 .surf-report {
-
     background-image: url("../images/prism.avif");
     background-size: cover;
     background-position: center;
@@ -199,7 +189,10 @@ h5 {
     margin: 0px;
 }
 
-
+.surf-report:hover, .led-wall:hover, .calculator:hover,
+.pastel-puzzles:hover, .run-buddy:hover{
+    opacity: 0.7;
+}
 
 .led-wall {
 
@@ -213,7 +206,6 @@ h5 {
     text-align: left;
     border: 2px solid white;
     margin: 0px;
-
 }
 
 .calculator {
@@ -227,11 +219,10 @@ h5 {
     text-align: left;
     border: 2px solid white;
     margin: 0px;
-
 }
 
 .pastel-puzzles {
-    background-image: url("../images/windows.avif");
+    background-image: url("../images/square.jpeg");
     background-size: cover;
     background-position: center;
     min-height: 100px;
@@ -257,9 +248,6 @@ h5 {
     margin: 0px;
 }
 
-.border {
-    border:#00203F solid 2px;
-}
 
 .content {
     display: flex;
@@ -272,18 +260,18 @@ h5 {
     display: flex;
 }
 
-.buttons:hover {
-    opacity: 0.7;
-}
 
 .info {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 30px;
-    padding: 10px;
-  
+    padding: 10px; 
 }
+
+a:link {color:#00203F;}
+
+a:link:hover {color:red;}
 
 @media screen and (max-width:768px) {
     h4 {font-size: smaller;}
